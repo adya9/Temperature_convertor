@@ -102,15 +102,31 @@ button:hover{
         margin: auto;
     }
     .result{
-       
+        flex-direction: column;
+        align-items: center;
         margin-top: 25px;
         font-size: 20px;
         font-weight: 400;
+
+    }
+    input{
+        width: 100%;
+    }
+    .label1{
+        text-align: center;
+    }
+    .input_field label{
+        align-items: center;
+        font-size: 18px;
     }
     .user_input{
         flex-direction: column;
     }
     .input_field label{
         text-align: left;
+    }
+    .drop_down_field{
+        text-align: center;
+        margin-top: 10px;
     }
 }
