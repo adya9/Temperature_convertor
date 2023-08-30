@@ -1,0 +1,116 @@
+.main_body{
+     width: 50%;
+     margin: auto;
+     background-color: rgb(255, 230, 6);
+     margin-top: 50px;
+}
+
+.temp_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.label1{
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.result{
+    display: flex;
+    
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.celsius-value {
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+    text-align: center;
+    width: 40%;
+   
+  }
+
+.user_input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 90px;
+    margin-right: 90px;
+    
+}
+.input_field label{
+    font-size: 20px;   
+    margin-left: 20px; 
+    margin-right: 10px;
+}
+select,input{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    padding: 8px;
+    margin-bottom: 10px;
+
+}
+input:focus {
+    border: 1px solid #4c49f3;
+  }
+
+.drop_down_field label{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+select,option{
+    font-size: 18px;
+
+}
+
+.button_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: rgba(29, 29, 184, 0.833);
+    font-size: 20px;
+    color: white;
+    width: 60%;
+    padding: 12px 15px;
+    text-decoration: none;
+    margin-top: 30px;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: rgb(92, 92, 185);
+}
+
+@media only screen and (max-width:600px)
+{
+    body{
+        background-color:  rgb(255, 230, 6);
+    }
+    .main_body{
+        width: 100%;
+        margin: auto;
+    }
+    .result{
+       
+        margin-top: 25px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .user_input{
+        flex-direction: column;
+    }
+    .input_field label{
+        text-align: left;
+    }
+}
